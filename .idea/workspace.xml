@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/blank.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/panels/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/panels/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/panels/script.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/panels/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/panels/style.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +184,7 @@
       <workItem from="1607173107211" duration="2239000" />
       <workItem from="1607338608120" duration="348000" />
       <workItem from="1607338972861" duration="6057000" />
-      <workItem from="1607348157407" duration="4964000" />
+      <workItem from="1607348157407" duration="7163000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -210,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607351640885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="login functionality updated">
+      <created>1607353305359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607353305359</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +245,7 @@
     <MESSAGE value="res uploaded" />
     <MESSAGE value="login functionality added" />
     <MESSAGE value="gitignore updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore updated" />
+    <MESSAGE value="login functionality updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="login functionality updated" />
   </component>
 </project>
