@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +181,7 @@
       <workItem from="1607338972861" duration="6057000" />
       <workItem from="1607348157407" duration="7163000" />
       <workItem from="1607404872948" duration="3143000" />
-      <workItem from="1607437324813" duration="3922000" />
+      <workItem from="1607437324813" duration="5835000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607497876798</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated home view">
+      <created>1607600187370</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607600187370</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +274,7 @@
     <MESSAGE value="added panel's view" />
     <MESSAGE value="updated home and header" />
     <MESSAGE value="added footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added footer" />
+    <MESSAGE value="updated home view" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated home view" />
   </component>
 </project>
