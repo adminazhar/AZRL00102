@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo/logo - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo/logo4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/panels/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/panels/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/panels/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/panels/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,7 @@
       <workItem from="1607348157407" duration="7163000" />
       <workItem from="1607404872948" duration="3143000" />
       <workItem from="1607437324813" duration="7797000" />
-      <workItem from="1607754077072" duration="5392000" />
+      <workItem from="1607754077072" duration="10189000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607754294968</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated blade files">
+      <created>1607766846449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607766846449</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +301,7 @@
     <MESSAGE value="updated home view" />
     <MESSAGE value="refactor welcome blade" />
     <MESSAGE value="changed route file" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed route file" />
+    <MESSAGE value="updated blade files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated blade files" />
   </component>
 </project>
