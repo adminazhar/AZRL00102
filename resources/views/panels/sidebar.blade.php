@@ -1,7 +1,7 @@
 <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
     <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
-            <li class="nav-item mr-auto"><a class="navbar-brand" href="../../../html/ltr/vertical-menu-template/index.html"><span class="brand-logo">
+            <li class="nav-item mr-auto"><a class="navbar-brand" href="#"><span class="brand-logo">
                             <svg viewbox="0 0 139 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="24">
                                 <defs>
                                     <lineargradient id="linearGradient-1" x1="100%" y1="10.5120544%" x2="50%" y2="89.4879456%">
@@ -33,36 +33,78 @@
     <div class="shadow-bottom"></div>
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-            <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span><span class="badge badge-light-warning badge-pill ml-auto mr-1">2</span></a>
-                <ul class="menu-content">
-                    <li class="active"><a class="d-flex align-items-center" href="dashboard-analytics.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>
-                    </li>
-                    <li><a class="d-flex align-items-center" href="dashboard-ecommerce.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="eCommerce">eCommerce</span></a>
-                    </li>
-                </ul>
+
+            <li class="nav-item active ">
+                <a href="https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo-1/app/chat" class="d-flex align-items-center" target="_self">
+                    <i data-feather="home"></i>
+                    <span class="menu-title text-truncate">Dashboard</span>
+                </a>
             </li>
-           
-            <li class=" navigation-header"><span data-i18n="Misc">Misc</span><i data-feather="more-horizontal"></i>
+
+            <!-- Customer Management Panel -->
+            <li class=" navigation-header"><span data-i18n="Misc">Customer Management</span><i data-feather="more-horizontal"></i>
             </li>
-            <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="menu"></i><span class="menu-title text-truncate" data-i18n="Menu Levels">Menu Levels</span></a>
-                <ul class="menu-content">
-                    <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Second Level">Second Level 2.1</span></a>
-                    </li>
-                    <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Second Level">Second Level 2.2</span></a>
-                        <ul class="menu-content">
-                            <li><a class="d-flex align-items-center" href="#"><span class="menu-item" data-i18n="Third Level">Third Level 3.1</span></a>
-                            </li>
-                            <li><a class="d-flex align-items-center" href="#"><span class="menu-item" data-i18n="Third Level">Third Level 3.2</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="users"></i>
+                    <span class="menu-title text-truncate">Customers</span>
+                </a>
             </li>
-            <li class="disabled nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="eye-off"></i><span class="menu-title text-truncate" data-i18n="Disabled Menu">Disabled Menu</span></a>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="upload"></i>
+                    <span class="menu-title text-truncate">Bulk Import</span>
+                </a>
             </li>
-            <li class=" nav-item"><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation"><i data-feather="folder"></i><span class="menu-title text-truncate" data-i18n="Documentation">Documentation</span></a>
+
+            <!-- Festive Panel -->
+            <li class=" navigation-header"><span data-i18n="Misc">Festive Greetings</span><i data-feather="more-horizontal"></i>
             </li>
-            <li class=" nav-item"><a class="d-flex align-items-center" href="https://pixinvent.ticksy.com/"><i data-feather="life-buoy"></i><span class="menu-title text-truncate" data-i18n="Raise Support">Raise Support</span></a>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="download"></i>
+                    <span class="menu-title text-truncate">Download</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="mail"></i>
+                    <span class="menu-title text-truncate">E-Mail</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="message-square"></i>
+                    <span class="menu-title text-truncate">SMS</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="share-2"></i>
+                    <span class="menu-title text-truncate">Social Media</span>
+                </a>
+            </li>
+
+            <!-- Profile Management Panel -->
+            <li class=" navigation-header"><span data-i18n="Misc">Profile Management</span><i data-feather="more-horizontal"></i>
+            </li>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="edit"></i>
+                    <span class="menu-title text-truncate">Update Profile</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="key"></i>
+                    <span class="menu-title text-truncate">Change Password</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="power"></i>
+                    <span class="menu-title text-truncate">Logout</span>
+                </a>
             </li>
         </ul>
     </div>

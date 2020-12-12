@@ -1,0 +1,17 @@
+dashboard
+
+customer mngmnt
+-customers
+-bulk import
+
+festive panel
+-download festive materials
+-email festive greetings
+-text festive greetings
+
+
+
+
+profile mngmnt
+-update company profile
+-change password
