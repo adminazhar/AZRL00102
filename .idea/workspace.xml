@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +181,8 @@
       <workItem from="1607404872948" duration="3143000" />
       <workItem from="1607437324813" duration="7797000" />
       <workItem from="1607754077072" duration="13541000" />
+      <workItem from="1607843230560" duration="323000" />
+      <workItem from="1607843945543" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607772300037</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="HomeController.php updated">
+      <created>1607843337963</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607843337963</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +314,7 @@
     <MESSAGE value="refactor welcome blade" />
     <MESSAGE value="changed route file" />
     <MESSAGE value="updated blade files" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated blade files" />
+    <MESSAGE value="HomeController.php updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeController.php updated" />
   </component>
 </project>
