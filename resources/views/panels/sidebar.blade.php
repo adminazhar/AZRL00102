@@ -27,7 +27,7 @@
             <li class=" navigation-header"><span data-i18n="Misc">Customer Management</span><i data-feather="more-horizontal"></i>
             </li>
             <li class="nav-item  ">
-                <a href="#" class="d-flex align-items-center" target="_self">
+                <a href="/customers" class="d-flex align-items-center" target="_self">
                     <i data-feather="users"></i>
                     <span class="menu-title text-truncate">Customers</span>
                 </a>

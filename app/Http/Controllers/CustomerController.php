@@ -14,7 +14,9 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        //
+
+        $customers = 1;
+        return view('pages.customer.index', compact('customers'));
     }
 
     /**
