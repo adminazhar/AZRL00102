@@ -16,7 +16,7 @@
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
 
-            <li class="nav-item active ">
+            <li class="nav-item  {{ (request()->is('home')) ? 'active' : '' }} ">
                 <a href="{{route('home')}}" class="d-flex align-items-center" target="_self">
                     <i data-feather="home"></i>
                     <span class="menu-title text-truncate">Dashboard</span>
@@ -26,7 +26,7 @@
             <!-- Customer Management Panel -->
             <li class=" navigation-header"><span data-i18n="Misc">Customer Management</span><i data-feather="more-horizontal"></i>
             </li>
-            <li class="nav-item  ">
+            <li class="nav-item  {{ (request()->is('customers*')) ? 'active' : '' }}">
                 <a href="/customers" class="d-flex align-items-center" target="_self">
                     <i data-feather="users"></i>
                     <span class="menu-title text-truncate">Customers</span>
