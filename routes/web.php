@@ -20,4 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/customers', 'App\Http\Controllers\CustomerController@index');
+Route::get('/customers', '\App\Http\Controllers\CustomerController@index');
+
+Route::get('/customers/create', '\App\Http\Controllers\CustomerController@create');
+Route::post('/customers', '\App\Http\Controllers\CustomerController@store');
+
+Route::get('/customers/{customerId}', '\App\Http\Controllers\CustomerController@show');

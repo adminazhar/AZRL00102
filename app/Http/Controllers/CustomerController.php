@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Session;
 use App\Models\Customer;
 use Illuminate\Http\Request;
 
@@ -14,8 +14,8 @@ class CustomerController extends Controller
      */
     public function index()
     {
+        $customers = \App\Models\Customer::where('active', 1)->get();
 
-        $customers = 1;
         return view('pages.customer.index', compact('customers'));
     }
 
@@ -26,7 +26,7 @@ class CustomerController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.customer.create');
     }
 
     /**
@@ -37,18 +37,34 @@ class CustomerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request = request()->validate([
+            'name' => 'required',
+            'email' => '',
+            'mobilenumber' => '',
+            'dob' => '',
+            'address_param1' => '',
+            'address_param2' => '',
+            'address_param3' => '',
+            'address_param4' => '',
+
+        ]);
+
+        $customer = \App\Models\Customer::create($request);
+        return redirect('/customers');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Customer  $customer
+     * @param  \App\Models\Customer  $customerId
      * @return \Illuminate\Http\Response
      */
-    public function show(Customer $customer)
+    public function show(Customer $customerId)
     {
-        //
+        $customer = \App\Models\Customer::findorFail($customerId);
+
+        return view('customer.show', compact('customer'));
+
     }
 
     /**

@@ -4,7 +4,7 @@
             <li class="nav-item mr-auto">
                 <a class="navbar-brand" href="{{route('home')}}">
                     <span class="brand-logo">
-                        <img src="images/logo/logo4.png" height="24">
+                        <img src="/images/logo/logo4.png" height="24">
                     </span>
                     <h2 class="brand-text">nixby/cem</h2>
                 </a>

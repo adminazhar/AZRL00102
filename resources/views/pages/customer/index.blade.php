@@ -1,56 +1,89 @@
 @extends('layouts.master')
 
 @section('content')
+    <!-- BEGIN: Content-->
     <div class="app-content content ">
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
             <div class="content-header row">
-                <div class="content-header-left col-md-9 col-12 mb-2">
-                    <div class="row breadcrumbs-top">
-                        <div class="col-12">
-                            <h2 class="content-header-title float-left mb-0">Home</h2>
-                            <div class="breadcrumb-wrapper">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#">Home</a>
-                                    </li>
-                                    <li class="breadcrumb-item"><a href="#">Customer</a>
-                                    </li>x`
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="content-body">
-                <!-- Card Advance -->
-                <div class="row match-height">
-                    <!-- Congratulations Card -->
-                    <div class="col-12 col-md-6 col-lg-7">
-                        <div class="card card-congratulations">
-                            <div class="card-body text-center">
-                                <img src="images/elements/decore-left.png" class="congratulations-img-left" alt="card-img-left" />
-                                <img src="images/elements/decore-right.png" class="congratulations-img-right" alt="card-img-right" />
-                                <div class="avatar avatar-xl bg-primary shadow">
-                                    <div class="avatar-content">
-                                        <i data-feather="award" class="font-large-1"></i>
-                                    </div>
-                                </div>
-                                <div class="text-center">
-                                    <h1 class="mb-1 text-white">Welcome {{Auth::user()->name}},</h1>
-                                    <p class="card-text m-auto w-75">
-                                        You have done <strong>57.6%</strong> more sales today. Check your new badge in your profile.
-                                    </p>
+                <section class="invoice-list-wrapper">
+                    <div class="card">
+                        <div class="card-header border-bottom p-1">
+                            <div class="head-label">
+                                <h3 class="mb-0">Customer</h3></div>
+                            <div class="dt-action-buttons text-right">
+                                <div class="dt-buttons d-inline-flex">
+                                    <a href="/customers/create" class="dt-button create-new btn btn-primary" tabindex="0"
+                                            aria-controls="DataTables_Table_0" ><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                                                      width="24" height="24"
+                                                                                      viewBox="0 0 24 24" fill="none"
+                                                                                      stroke="currentColor"
+                                                                                      stroke-width="2"
+                                                                                      stroke-linecap="round"
+                                                                                      stroke-linejoin="round"
+                                                                                      class="feather feather-plus mr-50 font-small-4"><line
+                                                    x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19"
+                                                                                                y2="12"></line></svg>Add New Customer</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--/ Congratulations Card -->
-                </div>
+                        <div class="card-datatable table-responsive p-1">
+                            <table id="customertable" class="dataTables_wrapper dt-bootstrap4 no-footer table table-bordered table-striped table-hover" >
+                                <thead class="thead-dark">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Mobile Number</th>
+                                    <th>DOB</th>
+                                    <th>Address Param1</th>
+                                    <th>Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                @forelse($customers as $customer)
+                                    <tr>
+                                        <td><a href="/customers/{{$customer->id}}">{{$customer->name}}</a> </td>
+                                        <td>{{$customer->email}}</td>
+                                        <td>{{$customer->mobilenumber}}</td>
+                                        <td>{{$customer->dob}}</td>
+                                        <td>{{$customer->address_param1}}</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button type="button" class="btn btn-sm dropdown-toggle hide-arrow" data-toggle="dropdown">
+                                                    <i data-feather="more-vertical"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="/customers/{{$customer->id}}/edit">
+                                                        <i data-feather="edit-2" class="mr-50"></i>
+                                                        <span>Edit</span>
+                                                    </a>
+                                                    <a class="dropdown-item" href="/customers/{{$customer->id}}">
+                                                        <i data-feather="trash" class="mr-50"></i>
+                                                        <span>Delete</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                @empty
+                                    No Customer Found
+                                @endforelse
 
-                <!--/ Card Advance -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
 
             </div>
         </div>
     </div>
+    <!-- END: Content-->
+
+
+
 @endsection
