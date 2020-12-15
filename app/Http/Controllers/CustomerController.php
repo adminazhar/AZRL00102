@@ -59,11 +59,11 @@ class CustomerController extends Controller
      * @param  \App\Models\Customer  $customerId
      * @return \Illuminate\Http\Response
      */
-    public function show(Customer $customerId)
+    public function show($customerId)
     {
         $customer = \App\Models\Customer::findorFail($customerId);
 
-        return view('customer.show', compact('customer'));
+        return view('pages.customer.show', compact('customer'));
 
     }
 

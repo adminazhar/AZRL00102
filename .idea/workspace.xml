@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/customer/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/customer/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_13_073526_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_13_073526_create_customers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/customer/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/customer/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/panels/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/panels/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/panels/script.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/panels/script.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/panels/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/panels/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/panels/style.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/panels/style.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +187,7 @@
       <workItem from="1607437324813" duration="7797000" />
       <workItem from="1607754077072" duration="13541000" />
       <workItem from="1607843230560" duration="323000" />
-      <workItem from="1607843945543" duration="17690000" />
+      <workItem from="1607843945543" duration="18637000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -327,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607922137010</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="customer controller updated">
+      <created>1608010616722</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608010616722</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +359,7 @@
     <MESSAGE value="updated Customer Controller" />
     <MESSAGE value="active class in sidebar nav added" />
     <MESSAGE value="db" />
-    <option name="LAST_COMMIT_MESSAGE" value="db" />
+    <MESSAGE value="customer controller updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="customer controller updated" />
   </component>
 </project>
