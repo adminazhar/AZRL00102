@@ -46,7 +46,7 @@
                                 <tbody>
                                 @forelse($customers as $customer)
                                     <tr>
-                                        <td><a href="/customers/{{$customer->id}}">{{$customer->name}}</a> </td>
+                                        <td><a href="/customers/{{$customer->id}}"><i data-feather="user" class="mr-50 mb-50"></i>{{$customer->name}}</a> </td>
                                         <td>{{$customer->email}}</td>
                                         <td>{{$customer->mobilenumber}}</td>
                                         <td>{{$customer->dob}}</td>

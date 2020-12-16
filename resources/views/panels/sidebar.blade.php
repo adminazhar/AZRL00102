@@ -42,12 +42,7 @@
             <!-- Festive Panel -->
             <li class=" navigation-header"><span data-i18n="Misc">Festive Greetings</span><i data-feather="more-horizontal"></i>
             </li>
-            <li class="nav-item  ">
-                <a href="#" class="d-flex align-items-center" target="_self">
-                    <i data-feather="download"></i>
-                    <span class="menu-title text-truncate">Download</span>
-                </a>
-            </li>
+
             <li class="nav-item  ">
                 <a href="#" class="d-flex align-items-center" target="_self">
                     <i data-feather="mail"></i>
@@ -64,6 +59,12 @@
                 <a href="#" class="d-flex align-items-center" target="_self">
                     <i data-feather="share-2"></i>
                     <span class="menu-title text-truncate">Social Media</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="#" class="d-flex align-items-center" target="_self">
+                    <i data-feather="download"></i>
+                    <span class="menu-title text-truncate">Download</span>
                 </a>
             </li>
 
