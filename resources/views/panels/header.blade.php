@@ -129,15 +129,15 @@
                                                                                                   href="#"><i
                             class="mr-50" data-feather="user"></i> Profile</a>
                     <a class="dropdown-item"
-                                                                                 href="#"><i class="mr-50"
-                                                                                                          data-feather="mail"></i>
+                       href="#"><i class="mr-50"
+                                   data-feather="mail"></i>
                         Inbox</a>
 
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#"><i class="mr-50"
-                                                                                  data-feather="settings"></i> Settings</a>
+                                                         data-feather="settings"></i> Settings</a>
                     <a class="dropdown-item" href="#"><i class="mr-50"
-                                                                                    data-feather="help-circle"></i> FAQ</a>
+                                                         data-feather="help-circle"></i> FAQ</a>
 
                     <a class="dropdown-item" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
