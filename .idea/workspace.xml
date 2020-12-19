@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/panels/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/panels/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,7 @@
       <workItem from="1607843945543" duration="21673000" />
       <workItem from="1608225122936" duration="431000" />
       <workItem from="1608269167915" duration="1512000" />
-      <workItem from="1608270700515" duration="2836000" />
+      <workItem from="1608270700515" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -340,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608270431045</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="header update">
+      <created>1608305616342</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608305616342</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +385,8 @@
     <MESSAGE value="db" />
     <MESSAGE value="customer controller updated" />
     <MESSAGE value="env added" />
-    <option name="LAST_COMMIT_MESSAGE" value="env added" />
+    <MESSAGE value="header update" />
+    <option name="LAST_COMMIT_MESSAGE" value="header update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
