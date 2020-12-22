@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Session;
 use App\Models\Customer;
 use Illuminate\Http\Request;
+use function GuzzleHttp\Promise\all;
 
 class CustomerController extends Controller
 {
@@ -20,7 +21,7 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        $customers = \App\Models\Customer::where('active', 1)->get();
+        $customers = \App\Models\Customer::all();
 
         return view('pages.customer.index', compact('customers'));
     }
@@ -79,9 +80,11 @@ class CustomerController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function edit(Customer $customer)
+    public function edit($customerId)
     {
-        //
+        //edit the customer
+        $customer = \App\Models\Customer::where('id', $customerId)->first();
+        return view('pages.customer.edit', compact('customer'));
     }
 
     /**
@@ -93,7 +96,10 @@ class CustomerController extends Controller
      */
     public function update(Request $request, Customer $customer)
     {
-        //
+        //UPDATE THE CUSTOMER FORM TO DATABASE
+        $customer->update($request->all());
+
+        return redirect('/customer');
     }
 
     /**

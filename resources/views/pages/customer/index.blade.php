@@ -31,15 +31,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-datatable table-responsive p-1">
-                            <table id="customertable" class="dataTables_wrapper dt-bootstrap4 no-footer table table-bordered table-striped table-hover" >
-                                <thead class="thead-dark">
+                        <div class="card-datatable table-responsive ">
+                            <table id="customertable" class="table">
+                                <thead class="thead">
                                 <tr>
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Mobile Number</th>
                                     <th>DOB</th>
-                                    <th>Address Param1</th>
+                                    <th>Status</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -50,23 +50,17 @@
                                         <td>{{$customer->email}}</td>
                                         <td>{{$customer->mobilenumber}}</td>
                                         <td>{{$customer->dob}}</td>
-                                        <td>{{$customer->address_param1}}</td>
                                         <td>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn btn-sm dropdown-toggle hide-arrow" data-toggle="dropdown">
-                                                    <i data-feather="more-vertical"></i>
-                                                </button>
-                                                <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="/customers/{{$customer->id}}/edit">
-                                                        <i data-feather="edit-2" class="mr-50"></i>
-                                                        <span>Edit</span>
-                                                    </a>
-                                                    <a class="dropdown-item" href="/customers/{{$customer->id}}">
-                                                        <i data-feather="trash" class="mr-50"></i>
-                                                        <span>Delete</span>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                            @if($customer->active == 1)
+                                                <span class="badge badge-pill  badge-light-success">Active</span>
+                                            @else
+                                                <span class="badge badge-pill  badge-light-danger">Inactive</span>
+                                            @endif
+                                        </td>
+                                        <td>
+                                            <a href="/customers/{{$customer->id}}/edit" ><i data-feather="edit"></i></a>
+                                            &nbsp;
+                                            <a href="/customers/{{$customer->id}}" ><i data-feather="trash"></i></a>
                                         </td>
                                     </tr>
                                 @empty

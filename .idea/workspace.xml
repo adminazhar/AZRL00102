@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/customer/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/customer/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/customer/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/customer/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/customer/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,16 +154,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Blade" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages/customer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\PhpstormProjects\AZRL00102" />
       <recent name="C:\Users\admin\PhpstormProjects\AZRL00102\resources\views\pages\customer" />
+      <recent name="C:\Users\admin\PhpstormProjects\AZRL00102" />
       <recent name="C:\Users\admin\PhpstormProjects\AZRL00102\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -196,7 +200,7 @@
       <workItem from="1608620985001" duration="38000" />
       <workItem from="1608621036782" duration="176000" />
       <workItem from="1608621227314" duration="40000" />
-      <workItem from="1608621278520" duration="595000" />
+      <workItem from="1608621278520" duration="8421000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -373,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608439817646</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="CustomerController.php updated">
+      <created>1608628206036</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608628206036</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +427,8 @@
     <MESSAGE value="daily update" />
     <MESSAGE value="updated session time" />
     <MESSAGE value="updated route" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated route" />
+    <MESSAGE value="CustomerController.php updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="CustomerController.php updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
