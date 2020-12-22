@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +153,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -190,7 +191,12 @@
       <workItem from="1607843945543" duration="21673000" />
       <workItem from="1608225122936" duration="431000" />
       <workItem from="1608269167915" duration="1512000" />
-      <workItem from="1608270700515" duration="6006000" />
+      <workItem from="1608270700515" duration="6033000" />
+      <workItem from="1608443581006" duration="352000" />
+      <workItem from="1608620985001" duration="38000" />
+      <workItem from="1608621036782" duration="176000" />
+      <workItem from="1608621227314" duration="40000" />
+      <workItem from="1608621278520" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -360,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608439760186</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated route">
+      <created>1608439817646</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608439817646</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +415,8 @@
     <MESSAGE value="header update" />
     <MESSAGE value="daily update" />
     <MESSAGE value="updated session time" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated session time" />
+    <MESSAGE value="updated route" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated route" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
