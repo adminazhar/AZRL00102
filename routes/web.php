@@ -35,4 +35,7 @@ Route::get('/customers/{customerId}', '\App\Http\Controllers\CustomerController@
 //UPDATE CUSTOMER FORM
 Route::get('/customers/{customerId}/edit', '\App\Http\Controllers\CustomerController@edit');
 //UPDATE THE CUSTOMER TO DATABASE
-Route::patch('/customers', '\App\Http\Controllers\CustomerController@update');
+Route::patch('/customers/{customer}', '\App\Http\Controllers\CustomerController@update');
+
+//DELETE THE CUSTOMER
+Route::delete('/customers/{customer}', '\App\Http\Controllers\CustomerController@destroy');

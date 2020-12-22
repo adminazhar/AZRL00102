@@ -99,7 +99,7 @@ class CustomerController extends Controller
         //UPDATE THE CUSTOMER FORM TO DATABASE
         $customer->update($request->all());
 
-        return redirect('/customer');
+        return redirect('/customers');
     }
 
     /**
@@ -108,8 +108,11 @@ class CustomerController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Customer $customer)
+    public function destroy(\App\Models\Customer $customer)
     {
-        //
+        //DELETE THE CUSTOMER
+        $customer->delete();
+
+        return redirect('/customers');
     }
 }

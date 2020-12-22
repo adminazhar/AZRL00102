@@ -58,9 +58,14 @@
                                             @endif
                                         </td>
                                         <td>
-                                            <a href="/customers/{{$customer->id}}/edit" ><i data-feather="edit"></i></a>
-                                            &nbsp;
-                                            <a href="/customers/{{$customer->id}}" ><i data-feather="trash"></i></a>
+                                            <form action="/customers/{{$customer->id}}" method="post">
+                                                @method('DELETE')
+                                                @csrf
+                                                <a href="/customers/{{$customer->id}}/edit" class="btn btn-primary btn-sm"><i data-feather="edit"></i></a>
+                                                    &nbsp;
+
+                                                <button class="btn btn-danger btn-sm"><i data-feather="trash"></i></button>
+                                            </form>
                                         </td>
                                     </tr>
                                 @empty
