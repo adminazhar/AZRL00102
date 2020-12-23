@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="updated customer module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/customer/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/customer/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +197,9 @@
       <workItem from="1608621036782" duration="176000" />
       <workItem from="1608621227314" duration="40000" />
       <workItem from="1608621278520" duration="9634000" />
-      <workItem from="1608637769632" duration="941000" />
+      <workItem from="1608637769632" duration="1115000" />
+      <workItem from="1608702907433" duration="1682000" />
+      <workItem from="1608713460015" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -390,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608636308276</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added customer update and delete functionality">
+      <created>1608638795984</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608638795984</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +417,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="initial version" />
     <MESSAGE value="res uploaded" />
     <MESSAGE value="login functionality added" />
     <MESSAGE value="gitignore updated" />
@@ -435,7 +441,8 @@
     <MESSAGE value="updated route" />
     <MESSAGE value="CustomerController.php updated" />
     <MESSAGE value="updated customer module" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated customer module" />
+    <MESSAGE value="added customer update and delete functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="added customer update and delete functionality" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
