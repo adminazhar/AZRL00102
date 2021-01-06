@@ -23,6 +23,8 @@ class CreateCustomersTable extends Migration
             $table->string('address_param2')->nullable();
             $table->string('address_param3')->nullable();
             $table->string('address_param4')->nullable();
+            $table->string('unsubscribed_from')->nullable();
+            $table->string('imported_from')->default('APP');
             $table->unsignedInteger('active')->default(1);
             $table->timestamps();
         });

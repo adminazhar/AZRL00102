@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="updated customer module">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HolidayListController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/HolidayList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_072514_create_holiday_lists_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_13_073526_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_13_073526_create_customers_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,11 +152,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Blade" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="MySQL&#10;Blade" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages/customer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -199,7 +202,12 @@
       <workItem from="1608621278520" duration="9634000" />
       <workItem from="1608637769632" duration="1115000" />
       <workItem from="1608702907433" duration="1682000" />
-      <workItem from="1608713460015" duration="1840000" />
+      <workItem from="1608713460015" duration="1864000" />
+      <workItem from="1608720337111" duration="828000" />
+      <workItem from="1608728465712" duration="49000" />
+      <workItem from="1608728532344" duration="12000" />
+      <workItem from="1609827835819" duration="595000" />
+      <workItem from="1609913246537" duration="4627000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -397,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608638795984</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Route updated">
+      <created>1608716497220</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608716497220</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="res uploaded" />
     <MESSAGE value="login functionality added" />
     <MESSAGE value="gitignore updated" />
     <MESSAGE value="login functionality updated" />
@@ -442,7 +456,8 @@
     <MESSAGE value="CustomerController.php updated" />
     <MESSAGE value="updated customer module" />
     <MESSAGE value="added customer update and delete functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added customer update and delete functionality" />
+    <MESSAGE value="Route updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Route updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
