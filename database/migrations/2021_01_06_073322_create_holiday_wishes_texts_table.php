@@ -15,6 +15,9 @@ class CreateHolidayWishesTextsTable extends Migration
     {
         Schema::create('holiday_wishes_texts', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('holiday_id');
+            $table->foreign('holiday_id')->references('id')->on('holiday_lists');
+            $table->text('holiday_text')->nullable();
             $table->timestamps();
         });
     }

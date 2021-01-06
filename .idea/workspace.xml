@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="updated customer module">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HolidayListController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/HolidayList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_072514_create_holiday_lists_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_13_073526_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_13_073526_create_customers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/HolidayWishesImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/HolidayWishesImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/HolidayWishesText.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/HolidayWishesText.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_06_073322_create_holiday_wishes_texts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_073322_create_holiday_wishes_texts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_06_073335_create_holiday_wishes_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_073335_create_holiday_wishes_images_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,7 @@
       <workItem from="1608728465712" duration="49000" />
       <workItem from="1608728532344" duration="12000" />
       <workItem from="1609827835819" duration="595000" />
-      <workItem from="1609913246537" duration="4627000" />
+      <workItem from="1609913246537" duration="5246000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -412,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608716497220</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added HolidayList, HolidayWishes Module">
+      <created>1609918460167</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1609918460167</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +439,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="login functionality added" />
     <MESSAGE value="gitignore updated" />
     <MESSAGE value="login functionality updated" />
     <MESSAGE value="added panel's view" />
@@ -457,7 +463,8 @@
     <MESSAGE value="updated customer module" />
     <MESSAGE value="added customer update and delete functionality" />
     <MESSAGE value="Route updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Route updated" />
+    <MESSAGE value="added HolidayList, HolidayWishes Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added HolidayList, HolidayWishes Module" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

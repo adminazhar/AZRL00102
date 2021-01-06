@@ -15,6 +15,9 @@ class CreateHolidayWishesImagesTable extends Migration
     {
         Schema::create('holiday_wishes_images', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('holiday_id');
+            $table->foreign('holiday_id')->references('id')->on('holiday_lists');
+            $table->string('holiday_image')->nullable();
             $table->timestamps();
         });
     }
