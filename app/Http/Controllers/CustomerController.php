@@ -23,7 +23,7 @@ class CustomerController extends Controller
     {
         $customers = \App\Models\Customer::all();
 
-        return view('pages.customer.index', compact('customers'));
+        return view('users.pages.customer.index', compact('customers'));
     }
 
     /**
@@ -33,7 +33,7 @@ class CustomerController extends Controller
      */
     public function create()
     {
-        return view('pages.customer.create');
+        return view('users.pages.customer.create');
     }
 
     /**
@@ -70,7 +70,7 @@ class CustomerController extends Controller
     {
         $customer = \App\Models\Customer::findorFail($customerId);
 
-        return view('pages.customer.show', compact('customer'));
+        return view('users.pages.customer.show', compact('customer'));
 
     }
 
@@ -84,7 +84,7 @@ class CustomerController extends Controller
     {
         //edit the customer
         $customer = \App\Models\Customer::where('id', $customerId)->first();
-        return view('pages.customer.edit', compact('customer'));
+        return view('users.pages.customer.edit', compact('customer'));
     }
 
     /**

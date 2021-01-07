@@ -13,13 +13,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('users.index');
 });
 
 Auth::routes();
 
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('users.home');
+
+Route::get('/admin/home', [App\Http\Controllers\HomeController::class, 'adminHome'])->name('admin.home')->middleware('is_admin');
+
+Route::get('/admin/users','App\Http\Controllers\UserController@index',)->name('users.index');
+Route::get('/admin/{userId}', '\App\Http\Controllers\UserController@show')->name('users.show');
+Route::get('/admin/{userId}/edit', '\App\Http\Controllers\UserController@edit');
+Route::patch('/admin/{userId}', '\App\Http\Controllers\UserController@update');
+Route::delete('/admin/{userId}', '\App\Http\Controllers\UserController@destroy');
+
+
 //LIST ALL CUSTOMERS
 Route::get('/customers', '\App\Http\Controllers\CustomerController@index');
 
@@ -38,3 +48,5 @@ Route::patch('/customers/{customer}', '\App\Http\Controllers\CustomerController@
 
 //DELETE THE CUSTOMER
 Route::delete('/customers/{customer}', '\App\Http\Controllers\CustomerController@destroy');
+
+

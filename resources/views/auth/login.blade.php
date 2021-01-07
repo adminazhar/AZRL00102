@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('users.layouts.app')
 
 @section('title', 'Login')
 @section('pageheader', 'Welcome to Nixby CEM! 👋')

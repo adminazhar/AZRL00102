@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('admin.layouts.master')
 
 @section('content')
     <div class="app-content content ">
@@ -40,15 +40,15 @@
                     <div class="col-12 col-md-6 col-lg-7">
                         <div class="card card-congratulations">
                             <div class="card-body text-center">
-                                <img src="images/elements/decore-left.png" class="congratulations-img-left" alt="card-img-left" />
-                                <img src="images/elements/decore-right.png" class="congratulations-img-right" alt="card-img-right" />
+                                <img src="{{ URL::asset('images/elements/decore-left.png')}}" class="congratulations-img-left" alt="card-img-left" />
+                                <img src="{{ URL::asset('images/elements/decore-right.png')}}" class="congratulations-img-right" alt="card-img-right" />
                                 <div class="avatar avatar-xl bg-primary shadow">
                                     <div class="avatar-content">
                                         <i data-feather="award" class="font-large-1"></i>
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                        <h1 class="mb-1 text-white">Welcome {{Auth::user()->name}},</h1>
+                                        <h1 class="mb-1 text-white">Welcome ADMIN  {{Auth::user()->name}},</h1>
                                     <p class="card-text m-auto w-75">
                                         You have done <strong>57.6%</strong> more sales today. Check your new badge in your profile.
                                     </p>
@@ -68,7 +68,7 @@
                                     <a href="javascript:void(0);">$48.9k</a>
                                 </h3>
                                 <button type="button" class="btn btn-primary">View Sales</button>
-                                <img src="images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                                <img src="{{ URL::asset('images/illustration/badge.svg')}}" class="congratulation-medal" alt="Medal Pic" />
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                                 <div class="employee-task d-flex justify-content-between align-items-center">
                                     <div class="media">
                                         <div class="avatar mr-75">
-                                            <img src="images/portrait/small/avatar-s-9.jpg" class="rounded" width="42" height="42" alt="Avatar" />
+                                            <img src="{{ URL::asset('images/portrait/small/avatar-s-9.jpg')}}" class="rounded" width="42" height="42" alt="Avatar" />
                                         </div>
                                         <div class="media-body my-auto">
                                             <h6 class="mb-0">Ryan Harrington</h6>
@@ -102,7 +102,7 @@
                                 <div class="employee-task d-flex justify-content-between align-items-center">
                                     <div class="media">
                                         <div class="avatar mr-75">
-                                            <img src="images/portrait/small/avatar-s-20.jpg" class="rounded" width="42" height="42" alt="Avatar" />
+                                            <img src="{{ URL::asset('images/portrait/small/avatar-s-20.jpg')}}" class="rounded" width="42" height="42" alt="Avatar" />
                                         </div>
                                         <div class="media-body my-auto">
                                             <h6 class="mb-0">Louisa Norton</h6>
@@ -117,7 +117,7 @@
                                 <div class="employee-task d-flex justify-content-between align-items-center">
                                     <div class="media">
                                         <div class="avatar mr-75">
-                                            <img src="images/portrait/small/avatar-s-1.jpg" class="rounded" width="42" height="42" alt="Avatar" />
+                                            <img src="{{ URL::asset('images/portrait/small/avatar-s-1.jpg')}}" class="rounded" width="42" height="42" alt="Avatar" />
                                         </div>
                                         <div class="media-body my-auto">
                                             <h6 class="mb-0">Jayden Duncan</h6>
@@ -132,7 +132,7 @@
                                 <div class="employee-task d-flex justify-content-between align-items-center">
                                     <div class="media">
                                         <div class="avatar mr-75">
-                                            <img src="images/portrait/small/avatar-s-20.jpg" class="rounded" width="42" height="42" alt="Avatar" />
+                                            <img src="{{ URL::asset('images/portrait/small/avatar-s-20.jpg')}}" class="rounded" width="42" height="42" alt="Avatar" />
                                         </div>
                                         <div class="media-body my-auto">
                                             <h6 class="mb-0">Cynthia Howell</h6>
@@ -147,7 +147,7 @@
                                 <div class="employee-task d-flex justify-content-between align-items-center">
                                     <div class="media">
                                         <div class="avatar mr-75">
-                                            <img src="images/portrait/small/avatar-s-16.jpg" class="rounded" width="42" height="42" alt="Avatar" />
+                                            <img src="{{ URL::asset('images/portrait/small/avatar-s-16.jpg')}}" class="rounded" width="42" height="42" alt="Avatar" />
                                         </div>
                                         <div class="media-body my-auto">
                                             <h6 class="mb-0">Helena Payne</h6>
@@ -162,7 +162,7 @@
                                 <div class="employee-task d-flex justify-content-between align-items-center">
                                     <div class="media">
                                         <div class="avatar mr-75">
-                                            <img src="images/portrait/small/avatar-s-13.jpg" class="rounded" width="42" height="42" alt="Avatar" />
+                                            <img src="{{ URL::asset('images/portrait/small/avatar-s-13.jpg')}}" class="rounded" width="42" height="42" alt="Avatar" />
                                         </div>
                                         <div class="media-body my-auto">
                                             <h6 class="mb-0">Troy Jensen</h6>
@@ -183,7 +183,7 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="card card-developer-meetup">
                             <div class="meetup-img-wrapper rounded-top text-center">
-                                <img src="images/illustration/email.svg" alt="Meeting Pic" height="170" />
+                                <img src="{{ URL::asset('images/illustration/email.svg')}}" alt="Meeting Pic" height="170" />
                             </div>
                             <div class="card-body">
                                 <div class="meetup-header d-flex align-items-center">
@@ -220,19 +220,19 @@
                                 </div>
                                 <div class="avatar-group">
                                     <div data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" data-original-title="Billy Hopkins" class="avatar pull-up">
-                                        <img src="images/portrait/small/avatar-s-9.jpg" alt="Avatar" width="33" height="33" />
+                                        <img src="{{ URL::asset('images/portrait/small/avatar-s-9.jpg')}}" alt="Avatar" width="33" height="33" />
                                     </div>
                                     <div data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" data-original-title="Amy Carson" class="avatar pull-up">
-                                        <img src="images/portrait/small/avatar-s-6.jpg" alt="Avatar" width="33" height="33" />
+                                        <img src="{{ URL::asset('images/portrait/small/avatar-s-6.jpg')}}" alt="Avatar" width="33" height="33" />
                                     </div>
                                     <div data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" data-original-title="Brandon Miles" class="avatar pull-up">
-                                        <img src="images/portrait/small/avatar-s-8.jpg" alt="Avatar" width="33" height="33" />
+                                        <img src="{{ URL::asset('images/portrait/small/avatar-s-8.jpg')}}" alt="Avatar" width="33" height="33" />
                                     </div>
                                     <div data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" data-original-title="Daisy Weber" class="avatar pull-up">
-                                        <img src="images/portrait/small/avatar-s-20.jpg" alt="Avatar" width="33" height="33" />
+                                        <img src="{{ URL::asset('images/portrait/small/avatar-s-20.jpg')}}" alt="Avatar" width="33" height="33" />
                                     </div>
                                     <div data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" data-original-title="Jenny Looper" class="avatar pull-up">
-                                        <img src="images/portrait/small/avatar-s-20.jpg" alt="Avatar" width="33" height="33" />
+                                        <img src="{{ URL::asset('images/portrait/small/avatar-s-20.jpg')}}" alt="Avatar" width="33" height="33" />
                                     </div>
                                     <h6 class="align-self-center cursor-pointer ml-50 mb-0">+42</h6>
                                 </div>

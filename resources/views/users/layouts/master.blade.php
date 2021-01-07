@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
 <!-- BEGIN: Head-->
@@ -12,7 +11,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
-    @include('panels.style')
+    @include('users.panels.style')
 
 </head>
 <!-- END: Head-->
@@ -22,12 +21,12 @@
 <body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="">
 
 <!-- BEGIN: Header-->
-@include('panels.header')
+@include('users.panels.header')
 <!-- END: Header-->
 
 
 <!-- BEGIN: Main Menu-->
-@include('panels.sidebar')
+@include('users.panels.sidebar')
 <!-- END: Main Menu-->
 
 <!-- BEGIN: Content-->
@@ -38,11 +37,11 @@
 <div class="drag-target"></div>
 
 <!-- BEGIN: Footer-->
-@include('panels.footer')
+@include('users.panels.footer')
 <!-- END: Footer-->
 
 
-@include('panels.script')
+@include('users.panels.script')
 
 </body>
 <!-- END: Body-->

@@ -2,7 +2,7 @@
     <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
             <li class="nav-item mr-auto">
-                <a class="navbar-brand" href="{{route('home')}}">
+                <a class="navbar-brand" href="{{route('users.home')}}">
                     <span class="brand-logo">
                         <img src="/images/logo/logo4.png" height="24">
                     </span>
@@ -17,7 +17,7 @@
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
 
             <li class="nav-item  {{ (request()->is('home')) ? 'active' : '' }} ">
-                <a href="{{route('home')}}" class="d-flex align-items-center" target="_self">
+                <a href="{{route('users.home')}}" class="d-flex align-items-center" target="_self">
                     <i data-feather="home"></i>
                     <span class="menu-title text-truncate">Dashboard</span>
                 </a>
