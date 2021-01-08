@@ -24,10 +24,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/admin/home', [App\Http\Controllers\HomeController::class, 'adminHome'])->name('admin.home')->middleware('is_admin');
 
 Route::get('/admin/users','App\Http\Controllers\UserController@index',)->name('users.index');
-Route::get('/admin/{userId}', '\App\Http\Controllers\UserController@show')->name('users.show');
-Route::get('/admin/{userId}/edit', '\App\Http\Controllers\UserController@edit');
-Route::patch('/admin/{userId}', '\App\Http\Controllers\UserController@update');
-Route::delete('/admin/{userId}', '\App\Http\Controllers\UserController@destroy');
+Route::get('/admin/users/changeStatus','App\Http\Controllers\UserController@changeStatus',);
+Route::get('/admin/users/{userId}', '\App\Http\Controllers\UserController@show')->name('users.show');
+Route::get('/admin/users/{userId}/edit', '\App\Http\Controllers\UserController@edit');
+Route::patch('/admin/users/{userId}', '\App\Http\Controllers\UserController@update');
+Route::delete('/admin/users/{userId}', '\App\Http\Controllers\UserController@destroy');
 
 
 //LIST ALL CUSTOMERS

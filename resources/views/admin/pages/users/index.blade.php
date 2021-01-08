@@ -1,6 +1,7 @@
 @extends('admin.layouts.master')
 
 @section('content')
+
     <!-- BEGIN: Content-->
     <div class="app-content content ">
         <div class="content-overlay"></div>
@@ -32,6 +33,7 @@
                             </div>
                         </div>
                         <div class="card-datatable table-responsive ">
+
                             <table id="customertable" class="table">
                                 <thead class="thead">
                                 <tr>
@@ -45,21 +47,18 @@
                                 <tbody>
                                 @forelse($users as $user)
                                     <tr>
-                                        <td><a href="/customers/{{$user->id}}"><i data-feather="user" class="mr-50 mb-50"></i>{{$user->name}}</a> </td>
+                                        <td><a href="users/{{$user->id}}"><i data-feather="user" class="mr-50 mb-50"></i>{{$user->name}}</a> </td>
                                         <td>{{$user->email}}</td>
                                         <td>{{$user->created_at}}</td>
                                         <td>
-                                            @if($user->is_admin == 1)
-                                                <span class="badge badge-pill  badge-light-success">Admin</span>
-                                            @else
-                                                <span class="badge badge-pill  badge-light-danger">Not Admin</span>
-                                            @endif
+
+                                            <input data-id="{{$user->id}}" class="toggle-class " type="checkbox" data-onstyle="success" data-offstyle="danger" data-toggle="toggle" data-on="Active" data-off="InActive" {{ $user->is_admin ? 'checked' : '' }}>
                                         </td>
                                         <td>
-                                            <form action="/customers/{{$user->id}}" method="post">
+                                            <form action="users/{{$user->id}}" method="post">
                                                 @method('DELETE')
                                                 @csrf
-                                                <a href="/customers/{{$user->id}}/edit" class="btn btn-primary btn-sm"><i data-feather="edit"></i></a>
+                                                <a href="users/{{$user->id}}/edit" class="btn btn-primary btn-sm"><i data-feather="edit"></i></a>
                                                 &nbsp;
 
                                                 <button class="btn btn-danger btn-sm"><i data-feather="trash"></i></button>
@@ -72,7 +71,6 @@
 
                                 </tbody>
                             </table>
-                        </div>
                     </div>
                 </section>
 

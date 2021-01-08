@@ -68,12 +68,12 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h5>Mobile</h5>
-                                                    <p>{{$user->mobilenumber}}</p>
+                                                    <h5>Created At</h5>
+                                                    <p>{{$user->created_at}}</p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <h5>Date of Birth</h5>
-                                                    <p>{{$customer->dob}}</p>
+                                                    <h5>Admin</h5>
+                                                    <p>{{$user->is_admin}}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,21 +85,21 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <h5>Address Param1</h5>
-                                                    <p>{{$customer->address_param1}}</p>
+
                                                 </div>
                                                 <div class="col-md-6">
                                                     <h5>Address Param2</h5>
-                                                    <p>{{$customer->address_param2}}</p>
+
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <h5>Address Param3</h5>
-                                                    <p>{{$customer->address_param3}}</p>
+
                                                 </div>
                                                 <div class="col-md-6">
                                                     <h5>Address Param4</h5>
-                                                    <p>{{$customer->address_param4}}</p>
+
                                                 </div>
                                             </div>
                                         </div>

@@ -22,3 +22,7 @@
 <!-- BEGIN: Custom CSS-->
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
 <!-- END: Custom CSS-->
+
+<!-- Bootstrap Toggle Switch-->
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
