@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="updated customer module">
-      <change afterPath="$PROJECT_DIR$/public/js/scripts/toastr/ext-component-toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/scripts/toastr/toastr.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/pages/users/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/panels/script.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/panels/script.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/panels/style.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/panels/style.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +153,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/pages/users" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -216,7 +207,11 @@
       <workItem from="1609827835819" duration="595000" />
       <workItem from="1609913246537" duration="6360000" />
       <workItem from="1610009388505" duration="20000" />
-      <workItem from="1610011673504" duration="14586000" />
+      <workItem from="1610011673504" duration="15829000" />
+      <workItem from="1610099597499" duration="135000" />
+      <workItem from="1610954499379" duration="21000" />
+      <workItem from="1610954552107" duration="15000" />
+      <workItem from="1610962863865" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -442,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610021181400</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="updated UserController">
+      <created>1610097278593</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1610097278593</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added panel's view" />
     <MESSAGE value="updated home and header" />
     <MESSAGE value="added footer" />
     <MESSAGE value="updated home view" />
@@ -487,7 +488,8 @@
     <MESSAGE value="added HolidayList, HolidayWishes Module" />
     <MESSAGE value="updated" />
     <MESSAGE value="added multi level authorization" />
-    <option name="LAST_COMMIT_MESSAGE" value="added multi level authorization" />
+    <MESSAGE value="updated UserController" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated UserController" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
