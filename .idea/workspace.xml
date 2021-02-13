@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b42a94a-f989-43e0-bc5d-7041fbaf51ad" name="Default Changelist" comment="updated customer module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +212,10 @@
       <workItem from="1610954499379" duration="21000" />
       <workItem from="1610954552107" duration="15000" />
       <workItem from="1610962863865" duration="48000" />
-      <workItem from="1611131567643" duration="775000" />
+      <workItem from="1611131567643" duration="904000" />
+      <workItem from="1611995579286" duration="225000" />
+      <workItem from="1611996704492" duration="215000" />
+      <workItem from="1613207363822" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1607173276236</created>
@@ -451,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610962884996</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=".">
+      <created>1611144125651</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1611144125651</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +482,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added footer" />
     <MESSAGE value="updated home view" />
     <MESSAGE value="refactor welcome blade" />
     <MESSAGE value="changed route file" />
@@ -496,7 +506,8 @@
     <MESSAGE value="added multi level authorization" />
     <MESSAGE value="updated UserController" />
     <MESSAGE value="updated UserController.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated UserController.php" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
